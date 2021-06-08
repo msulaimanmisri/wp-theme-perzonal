@@ -3,7 +3,7 @@
 /**
  * This page is to turn on the menu functions
  *
- * @package elemes
+ * @package perzonal
  */
 
 if (!defined('ABSPATH')) {
@@ -86,14 +86,14 @@ class bootstrap_5_wp_nav_menu_walker extends Walker_Nav_menu
     }
 }
 
-function elemes_menu_registration()
+function perzonal_menu_registration()
 {
     register_nav_menus(
         [
-            'elemes_main_menu' => esc_html__('Primary', 'elemes'),
-            'elemes_second_menu' => esc_html__('Secondary', 'elemes'),
+            'perzonal_main_menu' => esc_html__('Primary', 'perzonal'),
+            'perzonal_second_menu' => esc_html__('Secondary', 'perzonal'),
         ]
     );
 }
 
-add_action('after_setup_theme', 'elemes_menu_registration');
+add_action('after_setup_theme', 'perzonal_menu_registration');

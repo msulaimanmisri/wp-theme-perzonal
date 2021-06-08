@@ -1,13 +1,8 @@
 <?php
 
 /**
- * This is the page that showing your menu if user has logout.
- * 
- * Right now, it's only support 2 level of depth. 
- * 
- * If you wish to change, please do that using Elementor or just hardcode it here
- * 
- * @package elemes
+ * Main Nav
+ * @package perzonal
  */
 
 if (!defined('ABSPATH')) {
@@ -16,10 +11,11 @@ if (!defined('ABSPATH')) {
 
 ?>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light py-3 mb-3">
+<nav class="navbar navbar-expand-lg navbar-light bg-primary py-3 mb-3">
     <div class="container">
         <a class="navbar-brand fw-bold" href="/"><?php echo bloginfo(); ?></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -28,7 +24,7 @@ if (!defined('ABSPATH')) {
                     <!-- <a class="nav-link active" aria-current="page" href="#"> -->
                     <?php wp_nav_menu(
                         [
-                            'theme_location' => 'elemes_main_menu',
+                            'theme_location' => 'perzonal_main_menu',
                             'container' => false,
                             'menu_class' => '',
                             'fallback_cb' => '__return_false',
@@ -41,10 +37,10 @@ if (!defined('ABSPATH')) {
                 </li>
             </ul>
 
-            <form class="d-flex">
+            <!-- <form class="d-flex">
                 <input class="form-control me-2 shadow-sm" type="search" placeholder="Search" aria-label="Search">
                 <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
+            </form> -->
         </div>
     </div>
 </nav>

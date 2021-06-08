@@ -1,5 +1,5 @@
 <?php
-function elemes_scripts_style()
+function perzonal_scripts_style()
 {
 
     // Core Bootstrap
@@ -24,4 +24,4 @@ function elemes_scripts_style()
     wp_enqueue_script('bootstrap_jquery3', 'https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js', array('jquery'), '', true);
 }
 
-add_action('wp_enqueue_scripts', 'elemes_scripts_style');
+add_action('wp_enqueue_scripts', 'perzonal_scripts_style');

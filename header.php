@@ -3,7 +3,7 @@
 /**
  * This is page that display and serve header template
  * 
- * @package elemes
+ * @package perzonal
  */
 
 if (!defined('ABSPATH')) {
@@ -20,27 +20,11 @@ if (!defined('ABSPATH')) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="profile" href="https://gmpg.org/xfn/11" />
 
-    <style>
-    .tutor-dashboard-header {
-        display: none !important;
-    }
-    </style>
-
-    <?php wp_head(); ?>
+    <?php echo wp_head(); ?>
 </head>
 
 <nav>
-    <?php
-    if (is_admin()) {
-        require_once("nav_out.php");
-    }
-
-    if (is_user_logged_in() &&  !current_user_can('administrator')) {
-        require_once("nav_in.php");
-    } else {
-        require_once("nav_out.php");
-    }; ?>
-
+    <?php require_once("layout/nav.php"); ?>
 </nav>
 
 <body <?php body_class(); ?>>

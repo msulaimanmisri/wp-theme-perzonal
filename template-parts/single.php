@@ -5,7 +5,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#single-post
  *
- * @package elemes
+ * @package perzonal
  */
 
 get_header();
@@ -23,8 +23,8 @@ get_header();
 
 		the_post_navigation(
 			array(
-				'prev_text' => '<span class="nav-subtitle">' . esc_html__('Previous:', 'elemes') . '</span> <span class="nav-title">%title</span>',
-				'next_text' => '<span class="nav-subtitle">' . esc_html__('Next:', 'elemes') . '</span> <span class="nav-title">%title</span>',
+				'prev_text' => '<span class="nav-subtitle">' . esc_html__('Previous:', 'perzonal') . '</span> <span class="nav-title">%title</span>',
+				'next_text' => '<span class="nav-subtitle">' . esc_html__('Next:', 'perzonal') . '</span> <span class="nav-title">%title</span>',
 			)
 		);
 

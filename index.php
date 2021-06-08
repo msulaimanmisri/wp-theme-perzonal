@@ -3,7 +3,7 @@
 /**
  * The main template file. This will printed out when there's no static page selected as Homepage
  *
- * @package elemes
+ * @package perzonal
  */
 
 if (!defined('ABSPATH')) {
