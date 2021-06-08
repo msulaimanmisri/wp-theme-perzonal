@@ -1,0 +1,55 @@
+# /*
+# !wp-content
+# wp-content/*
+
+# !wp-content/plugins
+# wp-content/plugins/*
+# !wp-content/plugins/elemes-plug
+
+# !wp-content/themes
+# wp-content/themes/*
+# !wp-content/themes/elemes
+workspace.code-workspace
+old/*
+old2/*
+functions1.php
+new/*
+folder-rosak/*
+tutor-old/*
+.htaccess
+index.js
+
+tutor/*
+!tutor/dashboard
+tutor/dashboard/*
+tutor/dashboard/settings/
+tutor/dashboard/settings/
+includes/merlin
+merlin
+merlin-old
+inc/merlin
+
+
+!tutor/single-course-enrolled.php
+!tutor/single-lesson.php
+!tutor/login.php
+
+!tutor/dashboard/dashboard.php
+!tutor/dashboard/index.php
+!tutor/dashboard/my-profile.php
+!tutor/dashboard/my-profile/
+!tutor/dashboard/enrolled-courses.php
+!tutor/dashboard/my-quiz-attempts.php
+!tutor/dashboard/purchase_history.php
+!tutor/dashboard/my-course.php
+!tutor/dashboard/announcements.php
+!tutor/dashboard/question-answer.php
+!tutor/dashboard/create-course.php
+
+
+!tutor/archive-course.php
+!tutor/global/
+!tutor/global/login.php
+
+!style-rtl.css
+!style.css
