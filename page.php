@@ -3,7 +3,7 @@
 /**
  * This is page that display static content. For example Page that you create in Pages
  *
- * @package elemes
+ * @package perzonal
  */
 
 if (!defined('ABSPATH')) {

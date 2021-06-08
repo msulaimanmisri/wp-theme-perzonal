@@ -4,11 +4,11 @@
 
 # !wp-content/plugins
 # wp-content/plugins/*
-# !wp-content/plugins/elemes-plug
+# !wp-content/plugins/perzonal-plug
 
 # !wp-content/themes
 # wp-content/themes/*
-# !wp-content/themes/elemes
+# !wp-content/themes/perzonal
 workspace.code-workspace
 old/*
 old2/*

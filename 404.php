@@ -5,7 +5,7 @@
  * 
  * If you wish to change, please do that using Elementor or just hardcode it here
  * 
- * @package elemes
+ * @package perzonal
  */
 
 if (!defined('ABSPATH')) {
